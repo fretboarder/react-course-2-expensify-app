@@ -6,3 +6,4 @@ test('should render ExpenseDashboardPage', () => {
   const wrapper = shallow(<ExpenseDashboardPage />)
   expect(wrapper).toMatchSnapshot()
 })
+
